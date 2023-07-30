@@ -1,0 +1,66 @@
+.card {
+    height: 100%;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    margin: 0px 0px 10px 0px;
+    padding: 0px 50px;
+    border: 5px solid #262626;
+    border-radius: 5%;
+    background-color: #2626CC;
+}
+
+#current-number {
+    width: 200px;
+    color: #262626;
+    border: 5px solid #262626;
+    border-radius: 5%;
+    background-color: #CCCCCC;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+#image-box {
+    width: 300px; 
+    height: 220px;
+    border: 5px solid #262626;
+    border-radius: 2%;
+    background-color: #CCCCCC;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#image-box > img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.choice-button {
+    font-size: 0.8em;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    margin: 0px 20px 20px 20px;
+    padding: 10px 35px;
+    border: 2px solid #262626;
+    border-radius: 6%;
+    background-color: #CC26CC;
+}
+
+.choice-button:hover {
+    background-color: #AA06AA;
+}
+
+.choice-button:active {
+    background-color: #BB16BB;
+}

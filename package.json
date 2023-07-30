@@ -1,0 +1,21 @@
+{
+  "devDependencies": {
+    "express": "^4.18.2"
+  },
+  "dependencies": {
+    "concurrently": "^8.2.0",
+    "cors": "^2.8.5",
+    "number-to-words": "^1.2.4"
+  },
+  "scripts": {
+    "client": "npm start --prefix client",
+    "server": "node server.js",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "name": "memorygame",
+  "version": "1.0.0",
+  "main": "server.js",
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

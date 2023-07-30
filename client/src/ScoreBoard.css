@@ -1,0 +1,35 @@
+#current-score {
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+    margin: 0px 0px 10px 0px;
+    padding: 0px 50px;
+    border: 5px solid #262626;
+    border-radius: 5%;
+    background-color: #2626CC;
+}
+
+#best-score {
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+    border: 5px solid #262626;
+    border-radius: 5%;
+    background-color: #CC26CC;
+}
+
+.score {
+    width: 100px;
+    color: #262626;
+    border: 5px solid #262626;
+    border-radius: 5%;
+    background-color: #CCCCCC;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 2% 8%;
+}
